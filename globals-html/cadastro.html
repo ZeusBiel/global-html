@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=opera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img id="logoImg" src="./imagens/FREDIE_editado.png">
+            <h1 id="logoText">YBY</h1>        
+        </div> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container-login">
+            <div id="caixa-login">
+                <h4>Criar uma nova conta</h4>
+                <form id="form">
+                    <div class="input-login"><input type="text" id="nome" class="escrever" placeholder="Nome" required></div>
+                    <div class="input-login"><input type="email" id="email" class="escrever" placeholder="Email" required></div>
+                    <div class="input-login"><input type="tel" id="telefone" class="escrever" placeholder="Telefone" required></div>
+                    <div class="input-login"><input type="password" id="senha" class="escrever" placeholder="Senha" required></div>
+                    <div class="input-login"><input type="password" id="senhaConfirm" class="escrever" placeholder="Insira sua senha novamente" required></div>
+                    <p>Data de nascimento</p><div class="input-login"><input type="date" id="dataNascimento" class="escrever" required></div>
+                    <div class="sectionSubmit" >
+                        <div class="enviar" id="cadastrar"><input type="submit" onclick="cadastrar()"></div>
+                        <center><a href="login.html">Já tem uma conta?</a></center>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Footer a ser feito</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
